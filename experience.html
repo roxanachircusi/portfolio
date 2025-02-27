@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo"><span>Rox</span>ana</a>
+    <nav class="navbar">
+        <a href="experience.html" class="active">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html">Education</a>
+    </nav>
+    <div class="hamburger" onclick="document.querySelector('.navbar').classList.toggle('active')">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <a href="contact.html" class="contact">Contact Me</a>
+</header>
+
+<section class="experience">
+    <h2 class="heading">My <span>Experience</span></h2>
+    <div class="timeline">
+        
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2015 - 2021</div>
+            <div class="timeline-content">
+                <h3>Barista</h3>
+                <p>Working as a barista for six years during university taught me time management, customer interaction, and the ability to resolve situations quickly and effectively.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2021 - 2022</div>
+            <div class="timeline-content">
+                <h3>Social Media Manager - Pharmacy</h3>
+                <p>Managing social media for a pharmacy taught me to see through the user's eyes rather than my own. What matters is not what you like, but what resonates with the audience.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022 - 2023</div>
+            <div class="timeline-content">
+                <h3>Back Office - Architecture Firm</h3>
+                <p>Working in the back office of an architecture firm showed me that I can quickly learn tasks outside my studies. I discovered that I am extremely curious and highly adaptable to different environments.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 - Present</div>
+            <div class="timeline-content">
+                <h3>Front Office - Car Rental</h3>
+                <p>Working in the front office of a car rental company taught me to be very patient. With patience, politeness, and kindness, even the most complex situations can be handled smoothly.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="social">
+        <a href="https://www.instagram.com/graficarox/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.linkedin.com/in/roxana-chircusi-b26885238/"><i class='bx bxl-linkedin-square'></i></a>
+    </div>
+    <ul class="list">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+    </ul>
+    <p class="copyright">© 2025 Roxana | All Rights Reserved</p>
+</footer>
+<script>
+    function toggleMenu() {
+        document.querySelector('.navbar').classList.toggle('active');
+    }
+</script>
+</body>
+</html>
